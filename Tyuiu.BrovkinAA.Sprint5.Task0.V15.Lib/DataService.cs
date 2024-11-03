@@ -9,7 +9,7 @@ namespace Tyuiu.BrovkinAA.Sprint5.Task0.V15.Lib
             double result = (double)x / (Math.Pow(x, 3) + 2);
             result = Math.Round(result, 3);
 
-            string path = Path.Combine(Directory.GetCurrentDirectory(), "OutPutFileTask0.txt");
+            string path = Path.Combine(Path.GetTempPath(), "OutPutFileTask0.txt");
             File.WriteAllText(path, result.ToString());
 
             return path;
