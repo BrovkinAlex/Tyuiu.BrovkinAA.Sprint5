@@ -6,8 +6,7 @@ namespace Tyuiu.BrovkinAA.Sprint5.Task1.V16.Lib
     {
         public string SaveToFileTextData(int startValue, int stopValue)
         {
-            //string path = Path.Combine(Path.GetTempPath(), "OutPutFileTask1.txt");
-            string path = $@"C:\Users\Scree\AppData\Local\Temp\OutPutFileTask1.txt";
+            string path = Path.Combine(Path.GetTempPath(), "OutPutFileTask1.txt");
 
             while (startValue <= stopValue)
             {
