@@ -8,6 +8,7 @@ namespace Tyuiu.BrovkinAA.Sprint5.Task0.V15.Test
         public void ValidSaveDataFile()
         {
             DataService ds = new DataService();
+            string strRes = ds.SaveToFileTextData(3);
             string path = @"C:\Users\Scree\AppData\Local\Temp\OutPutFileTask0.txt";
             FileInfo fileInfo = new FileInfo(path);
 
