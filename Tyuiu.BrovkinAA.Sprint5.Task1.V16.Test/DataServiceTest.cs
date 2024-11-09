@@ -18,7 +18,6 @@ namespace Tyuiu.BrovkinAA.Sprint5.Task1.V16.Test
             bool wait = true;
 
             Assert.AreEqual(wait, fileExists);
-            Assert.IsTrue(fileExists);
         }
     }
 }

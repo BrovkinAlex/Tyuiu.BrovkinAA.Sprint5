@@ -16,7 +16,7 @@ namespace Tyuiu.BrovkinAA.Sprint5.Task1.V16.Lib
                     result = 0;
                 result = Math.Round(result, 2);
 
-                File.WriteAllText(path, result.ToString());
+                File.AppendAllText(path, $"{result.ToString()}\t");
                 startValue++;
             }
 
