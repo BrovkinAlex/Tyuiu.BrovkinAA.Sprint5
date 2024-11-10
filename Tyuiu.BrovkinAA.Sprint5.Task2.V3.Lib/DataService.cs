@@ -18,7 +18,7 @@ namespace Tyuiu.BrovkinAA.Sprint5.Task2.V3.Lib
 
                     File.AppendAllText(pathToSaveFile, matrix[i, j].ToString());
                     if (j != matrix.GetUpperBound(1))
-                        File.AppendAllText(pathToSaveFile, ",\t");
+                        File.AppendAllText(pathToSaveFile, ";");
                 }
                 File.AppendAllText(pathToSaveFile, "\n");
             }
